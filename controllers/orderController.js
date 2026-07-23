@@ -1,6 +1,6 @@
-const Order = require('../models/Order');
+const Order = require('../models/order');
 const Cart = require('../models/Cart');
-const Product = require('../models/Product');
+const Product = require('../models/Product.models');
 const asyncHandler = require('../middleware/asyncHandler');
 
 exports.createOrder = asyncHandler(async (req, res, next) => {
