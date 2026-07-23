@@ -1,4 +1,4 @@
-const Category = require('../models/Category');
+const Category = require('../models/Category.models');
 const asyncHandler = require('../middleware/asyncHandler');
 
 exports.getCategories = asyncHandler(async (req, res, next) => {
